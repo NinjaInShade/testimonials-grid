@@ -12,11 +12,22 @@
   font-size: 16px;
 
   /* Primary */
+  --purple: #733fc8;
 
   /* Neutral */
+  --black: #19202d;
+  --dark-gray: #48556a;
+
+  --gray: #cfcfcf;
+  --white: #ecf2f8;
 
   /* Typography */
-  --body: 1rem;
+  --strong: 1.25rem;
+
+  --body: 0.813rem;
+
+  --body-s: 0.688rem;
+  --body-s-line-height: 11px;
 
   /* Other */
 }
@@ -28,12 +39,15 @@ body {
   min-height: 100vh;
 }
 
+.strong-text {
+  font-size: var(--strong);
+}
+
 .body-text {
   font-size: var(--body);
 }
 
-@media (max-width: 375px) {
-  :root {
-    --body: 0.938rem;
-  }
+.body-s-text {
+  font-size: var(--body-s);
+  line-height: var(--body-s-line-height);
 }
