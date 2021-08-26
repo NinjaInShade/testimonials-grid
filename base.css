@@ -26,6 +26,7 @@
   --strong: 1.25rem;
 
   --body: 0.813rem;
+  --body-line-height: 18px;
 
   --body-s: 0.688rem;
   --body-s-line-height: 11px;
@@ -49,6 +50,7 @@ body {
 
 .body-text {
   font-size: var(--body);
+  line-height: var(--body-line-height);
 }
 
 .body-s-text {
