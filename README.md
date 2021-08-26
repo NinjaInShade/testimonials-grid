@@ -41,10 +41,24 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+I learnt about the grid-column/grid-row cleaner value syntax. Instead of doing something like
+
+```css
+#purple-card {
+  grid-column: 1 / 3;
+}
+```
+
+Which can be a bit unclear, as I want it to span 2 columns, so where is the 3 coming from some might think. So instead I went and learn the more intuitive syntax:
+
+```css
+#purple-card {
+  grid-column: span 2;
+}
+```
 
 ## Author
 
 - Website - [Leon Michalak](https://www.leonmichalak.tech)
 - Frontend Mentor - [@NinjaInShade](https://www.frontendmentor.io/profile/NinjaInShade)
-- Instagram - [@lmdeveloper](https://www.instagram.com/lmdeveloper/)
+- Instagram - [@lmdeveloper](https://www.instagram.com/TheFrontendGuy/)
