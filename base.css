@@ -13,6 +13,7 @@
 
   /* Primary */
   --purple: #733fc8;
+  --purple-light: #a775f1;
 
   /* Neutral */
   --black: #19202d;
@@ -53,4 +54,20 @@ body {
 .body-s-text {
   font-size: var(--body-s);
   line-height: var(--body-s-line-height);
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-white-50 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.color-gray {
+  color: var(--dark-gray);
+}
+
+.color-gray-50 {
+  color: rgba(72, 85, 106, 0.5);
 }

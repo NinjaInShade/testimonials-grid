@@ -14,10 +14,72 @@
   border-radius: 8px;
 }
 
+.card-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-photo {
+  margin-right: 16px;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+}
+
+.card-name {
+  margin-bottom: 1px;
+  font-weight: 500;
+}
+
+.card-role {
+  font-weight: 500;
+}
+
+.card-title {
+  display: block;
+  font-weight: 600;
+  margin: 18px 0 16px 0;
+}
+
+.card-description {
+  font-weight: 500;
+}
+
+#white-card-1 .card-title,
+#white-card-2 .card-title,
+#black-card .card-title {
+  margin-bottom: 24px;
+}
+
+#purple-card .card-description {
+  color: rgba(207, 207, 207, 0.7);
+}
+
+#gray-card .card-description,
+#black-card .card-description {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#white-card-1 .card-description,
+#white-card-2 .card-description {
+  color: rgba(72, 85, 106, 0.7);
+}
+
 #purple-card {
   position: relative;
   background-color: var(--purple);
   grid-column: span 2;
+}
+
+#purple-card .card-photo,
+#black-card .card-photo {
+  border: 2px solid var(--purple-light);
 }
 
 #gray-card {
