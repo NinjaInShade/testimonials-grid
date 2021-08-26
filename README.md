@@ -23,19 +23,20 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV) -->
-<!-- - Live Site URL: (https://lm-order-summary-component.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-testimonial-grid-with-gridcolumngridrow-bYTXimQeP)
+- Live Site URL: (https://lm-testimonials-grid.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
+- CSS Grid
 - CSS custom properties/vars
 - Desktop-first workflow
 
