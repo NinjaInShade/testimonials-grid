@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  max-width: var(--max-width);
+  column-gap: 30px;
+  row-gap: 24px;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 40px 60px 50px -48px rgba(72, 85, 106, 0.25);
+  padding: 26px 32px;
+  border-radius: 8px;
+}
+
+#purple-card {
+  position: relative;
+  background-color: var(--purple);
+  grid-column: span 2;
+}
+
+#gray-card {
+  background-color: var(--dark-gray);
+}
+
+#white-card-1 {
+  background-color: #fff;
+  grid-row: span 2;
+}
+
+#white-card-2 {
+  background-color: #fff;
+}
+
+#black-card {
+  background-color: var(--black);
+  grid-column: span 2;
+}
